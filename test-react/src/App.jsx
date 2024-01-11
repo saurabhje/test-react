@@ -6,9 +6,8 @@ import Login from "./components/login/login";
 import { useState } from "react";
 function App() {
   const [isLogged, setIsLogged] = useState(false);
-  
   return <Layout>
-    { isLogged ? <Feed /> : <Login /> }
+    { isLogged ? <Feed /> : <Login setIsLogged={setIsLogged}/> }
     </Layout>;
 }
 
