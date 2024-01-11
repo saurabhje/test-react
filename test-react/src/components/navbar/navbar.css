@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2rem;
+}
+.navLinks{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.navLinks a:hover{
+    text-decoration: underline;
+}
